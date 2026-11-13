@@ -298,7 +298,7 @@ body.lite .panel{backdrop-filter:none;-webkit-backdrop-filter:none}
 <div id="pal" role="dialog" aria-modal="true" aria-label="Command menu"><div class="box"><input id="pin" placeholder="Jump to a section or run an action" aria-label="Search commands"><ul id="pl"></ul></div></div><button id="skf" class="skf" aria-label="Change theme: default, blocky or city">Theme: Default</button>
 <div id="ach" role="status" aria-live="polite"></div><div id="stars" aria-hidden="true"></div>
 <div id="toast" role="status"></div>
-<nav><span class="brand"><b>NT</b></span><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a><a id="rs" class="rs" href="https://drive.google.com/file/d/10u8H4jOKpQZ3ytfWrC0K3CYkt6ZJVY9L/view?usp=sharing" target="_blank" rel="noopener" aria-label="Open my resume on Google Drive">Resume</a><button id="mn" aria-haspopup="true" aria-expanded="false" aria-controls="mnp">Menu</button></div></nav>
+<nav><span class="brand"><b>NT</b></span><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a><a id="rs" class="rs" href="https://drive.google.com/file/d/1r5aTwQdJ6eQy0tvbvI6ij61WcKD0481n/view?usp=sharing" target="_blank" rel="noopener" aria-label="Open my resume on Google Drive">Resume</a><button id="mn" aria-haspopup="true" aria-expanded="false" aria-controls="mnp">Menu</button></div></nav>
 <div id="mnp" role="menu" aria-label="More options">
   <div class="mrow"><span>India time</span><span id="clk" title="Current time in India (IST)">--:--:-- IST</span></div>
   <div class="mrow" id="mrm" hidden><span>Motion</span><span>Calmer: your device has reduce-motion on</span></div>
@@ -970,7 +970,7 @@ void main(){
 </script>
 <script>
 (function(){
-  var RESUME='https://drive.google.com/file/d/10u8H4jOKpQZ3ytfWrC0K3CYkt6ZJVY9L/view?usp=sharing';
+  var RESUME='https://drive.google.com/file/d/1r5aTwQdJ6eQy0tvbvI6ij61WcKD0481n/view?usp=sharing';
   var clk=document.getElementById('clk'),fmt=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',weekday:'short',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
   function tick(){clk.textContent=fmt.format(new Date()).replace(',','')+' IST';}
   tick();setInterval(tick,1000);
@@ -1158,7 +1158,7 @@ void main(){
 /* ===== recruiter view ===== */
 (function(){
   var rm=document.getElementById('rm'),box=document.getElementById('rmin'),last=null;
-  var GH='https://github.com/nithishwar17/',LI='https://www.linkedin.com/in/nithishwar-t-b153b2299/',CC='https://www.codechef.com/users/sethu_108068',RES='https://drive.google.com/file/d/10u8H4jOKpQZ3ytfWrC0K3CYkt6ZJVY9L/view?usp=sharing',EM='thirunithishwar@gmail.com';
+  var GH='https://github.com/nithishwar17/',LI='https://www.linkedin.com/in/nithishwar-t-b153b2299/',CC='https://www.codechef.com/users/sethu_108068',RES='https://drive.google.com/file/d/1r5aTwQdJ6eQy0tvbvI6ij61WcKD0481n/view?usp=sharing',EM='thirunithishwar@gmail.com';
   function build(){var N=window.NT||{P:[],L:{projects:[]}},ps='';
     N.P.forEach(function(p,i){var k=N.L.projects[i]||{},l='';if(k.code)l+=' <a href="'+k.code+'" target="_blank" rel="noopener">Code</a>';if(k.demo)l+=' <a href="'+k.demo+'" target="_blank" rel="noopener">Live demo</a>';
       ps+='<li><strong>'+p.t+'</strong> ('+p.s.join(', ')+'). '+p.b[1]+(l?' &middot;'+l:'')+'</li>';});
